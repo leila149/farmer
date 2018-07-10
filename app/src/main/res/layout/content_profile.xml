@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.janet.farmersclub.ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+
+    <TextView
+        android:id="@+id/surnametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/surname"
+        android:padding="@dimen/profilepadding"
+        />
+
+    <EditText
+        android:id="@+id/surnameedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:padding="@dimen/profilepadding"
+        />
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/usernametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:padding="@dimen/profilepadding"
+        />
+
+    <EditText
+        android:id="@+id/usernameedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:padding="@dimen/profilepadding"
+        />
+
+    <EditText
+        android:id="@+id/emailedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/telephonetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telephone"
+        android:padding="@dimen/profilepadding"
+        />
+
+    <EditText
+        android:id="@+id/telephoneedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/saveprofilebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_saveprofile"
+        android:padding="@dimen/profilepadding"/>
+
+</LinearLayout>
